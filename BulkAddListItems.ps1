@@ -1,4 +1,6 @@
 #実行環境に合わせて書き換え
+#Microsoft.SharePointOnline.CSOM
+#https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/
 Add-Type -Path "C:\Program Files\PackageManagement\NuGet\Packages\Microsoft.SharePointOnline.CSOM.16.1.7018.1200\lib\net40-full\Microsoft.SharePoint.Client.dll"
 
 $url = "https://<tenant>.sharepoint.com/sites/<sitename>"
